@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>基础平台</title>
+    <style>
+
+        .title {
+            margin: 20px 15px 10px;
+            color: #6d6d72;
+            font-size: 15px;
+        }
+
+        .oa-contact-cell.mui-table .mui-table-cell {
+            padding: 11px 0;
+            vertical-align: middle;
+        }
+
+        .oa-contact-cell {
+            position: relative;
+            margin: -11px 0;
+        }
+
+        .oa-contact-avatar {
+            width: 75px;
+        }
+
+        .oa-contact-avatar img {
+            border-radius: 50%;
+        }
+
+        .oa-contact-content {
+            width: 100%;
+        }
+
+        .oa-contact-name {
+            margin-right: 20px;
+        }
+
+        .oa-contact-name, oa-contact-position {
+            float: left;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="mui-bar mui-bar-tab">
+    <a class="mui-tab-item mui-active" id="tab1">
+        <span class="mui-icon mui-icon-chatbubble"></span>
+        <span class="mui-tab-label">消息</span>
+    </a>
+    <a class="mui-tab-item" id="tab2">
+        <span class="mui-icon iconfont icon-daiban"></span>
+        <span class="mui-tab-label">待办</span>
+    </a>
+    <a class="mui-tab-item" id="tab3">
+        <span class="mui-icon iconfont icon-caidan1"></span>
+        <span class="mui-tab-label">应用</span>
+    </a>
+    <a class="mui-tab-item" id="tab4">
+        <span class="mui-icon mui-icon-contact"></span>
+        <span class="mui-tab-label">通讯录</span>
+    </a>
+</nav>
+
+<div id="picture" class="mui-popover mui-popover-action mui-popover-bottom">
+    <ul class="mui-table-view">
+        <li class="mui-table-view-cell">
+            <a href="#">自由协同</a>
+        </li>
+        <li class="mui-table-view-cell">
+            <a href="#">表单模板</a>
+        </li>
+        <li class="mui-table-view-cell">
+            <a href="#">扫一扫</a>
+        </li>
+        <li class="mui-table-view-cell">
+            <a href="#">发起群组交流</a>
+        </li>
+        <li class="mui-table-view-cell">
+            <a href="#">新建任务</a>
+        </li>
+        <li class="mui-table-view-cell">
+            <a href="#">新建会议</a>
+        </li>
+    </ul>
+    <ul class="mui-table-view">
+        <li class="mui-table-view-cell">
+            <a href="#picture"><b>取消</b></a>
+        </li>
+    </ul>
+</div>
+
+<!-- <div> -->
+<iframe id="page" width="100%" height="100%" frameborder=0 scrolling="yes"></iframe>
+<!-- </div> -->
+
+<script src="js/mui.min.js"></script>
+<script src="js/jquery-2.2.3.min.js"></script>
+<script src="../static/jQuery/jQuery-min-3.5.1.js"></script>
+<script type="text/javascript">
+
+    $(function () {
+        window.location.href = "../static/test.html";
+    });
+
+
+</script>
+
+</body>
+</html>
